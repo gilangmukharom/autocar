@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+.carousel {
+    width: 85%;
+    height: auto;
+    padding: 1vh;
+    padding-top: 6%;
+    color: white;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.carousel img {
+    border-radius: 1%;
+    max-height: 40rem;
+}
+
+.card {
+    text-align: center;
+}
+
+.page_number a {
+    color: orange;
+}
+
+.page_number a:hover {
+    color: black;
+}
+
+.page_number a:active {
+    color: orange;
+    background-color: black;
+}
+
+.footer {
+    background-color: #222222;
+    color: white;
+    padding: 1vh;
+    text-align: center;
+}
+
+.footer .link {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        height: 10vh;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+        height: 15vh;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        height: 15vh;
+        width: auto;
+    }
+}
+
+
+/* ------------Dashboard------------- */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(69, 162, 158, 0.2);
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(69, 162, 158, 0.6);
+    cursor: pointer;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.page .sidebar {
+    background: #222222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.3s ease;
+}
+
+.page .content {
+    margin-left: 250px;
+    transition: all 0.3s ease;
+}
+
+.navigationBar {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    padding: 38px 0px;
+    align-items: center;
+    box-shadow: 0 4px 2px -2px #c5c6c7;
+}
+
+.sidebarToggle {
+    font-size: 16px;
+    color: orange;
+    margin-left: -20px;
+    z-index: 999;
+    border-radius: 50px;
+    background-color: #222222;
+    transition: all 0.3s ease;
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.sidebarToggle.active {
+    margin-left: 10px;
+}
+
+.sidebarToggle:hover {
+    color: white;
+}
+
+.page .content .container {
+    margin: 30px;
+    background: #fff;
+    padding: 50px;
+    line-height: 28px;
+}
+
+body.active .page .sidebar {
+    left: -250px;
+}
+
+body.active .page .content {
+    margin-left: 0;
+    width: 100%;
+}
+
+.sidebar-header {
+    padding: 10px 25px 10px 15px;
+}
+
+.sidebar-logo-container {
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding-left: 1px;
+    display: flex;
+}
+
+.logo-container {
+    max-width: 90px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 5px;
+    margin: 8px;
+    padding: 1px 2px;
+}
+
+.brand-name-container {
+    margin: 10px 55px 0px 2px;
+    padding: 0px;
+}
+
+.logo-sidebar {
+    width: 100%;
+    height: auto;
+}
+
+.brand-name {
+    color: white;
+    margin: 0px;
+    line-height: 1.1rem;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.brand-subname {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.navigation-list {
+    list-style-type: none;
+    padding: 0px 18px;
+    margin-top: 30px;
+}
+
+.navigation-list-item {
+    padding: 12px 18px 12px 25px;
+    margin: 15px 0px;
+    border-radius: 8px;
+}
+
+.navigation-list-item:hover {
+    background: rgb(0, 0, 0, 0.05);
+    box-shadow: 0 0 0.4em rgb(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.navigation-list-item.active {
+    background: rgb(0, 0, 0, 0.1);
+    box-shadow: 0 0 0.4em rgb(255, 255, 255, 0.1);
+}
+
+.navigation-link {
+    color: orange;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation-link i {
+    font-size: 18px;
+}
+
+.navigation-list-item:hover .navigation-link {
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.navigation-list-item.active .navigation-link {
+    color: rgb(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+
+
+/* ------------Form Login------------- */
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #222222;
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
